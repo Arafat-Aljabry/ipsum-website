@@ -1,0 +1,164 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>IPSUM UB</title>
+    <!--line 345 -->
+    <link rel="stylesheet" href="stylesheet.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+</head>
+
+<body id="body">
+
+    <!-- Header starts -->
+    <header>
+        <div class="container navbar-fixed-top">
+            <nav class="navbar  navbar-inverse">
+
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+                    <a class="navbar-brand" href="#">Brand</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li class="active"><a href="index.html">Hjem <span class="sr-only">(current)</span></a></li>
+                        <li>
+                            <a href="omOss.html">Om oss</a>
+                        </li>
+                        <li>
+                            <a href="kontakt.html">Kontakt</a>
+                        </li>
+
+
+                    </ul>
+                </div>
+                <!-- /.navbar-collapse -->
+            </nav>
+        </div>
+    </header>
+    <!-- header ends -->
+
+    <!-- main starts -->
+    <main>
+
+        <div class="container">
+            <div class="background-wrap"></div>
+            <div class="content">
+                <h1><b>IPSUM</b></h1></div>
+            <div align="center" class="embed-responsive embed-responsive-16by9 video-bg-elem">
+                <video autoplay muted loop class="embed-responsive-item">
+                    <source src="C:\Users\araal-67\Desktop\script\IPSUM-BU-WEBSIDE\media\Sawing - 215.mp4" type="video/mp4">
+                    <source src="C:\Users\araal-67\Desktop\script\IPSUM-BU-WEBSIDE\media\Sawing - 215-kopi.ogg" type="video/ogg">
+                </video>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6 col-md-4">
+                    <div class="thumbnail">
+                        <img src="..." alt="...">
+                        <div  class="caption">
+                            <h3>Thumbnail label</h3>
+                            <p>...</p>
+                            <Button class = "btn btn-success">Betal</button>
+                            <button id="myBtn" class = "btn btn-info" >Mer info</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- The Modal -->
+        <div id="myModal" class="modal">
+
+            <!-- Modal content -->
+            <div class="modal-content">
+                <div class="modal-header">
+                    <span class="close">×</span>
+                    <h2>Modal Header</h2>
+                </div>
+                <div class="modal-body">
+                    <p>Some text in the Modal Body</p>
+                    <p>Some other text...</p>
+                </div>
+
+            </div>
+
+        </div>
+    </main>
+    <!-- main ends -->
+
+    <!-- Footer begins -->
+    <footer class = "footer">
+      <div class="container">
+        <div id="footer-content">
+          <img src="" alt="LOGO" id="logofooter">
+
+            <a href="https://icons8.com/web-app/13615/iPhone">Iphone icon credits</a>
+
+
+        </div>
+
+      </div>
+    </footer>
+    <!--  Footer ends-->
+
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script>
+        // Get the modal
+        var modal = document.getElementById('myModal');
+
+        // Get the button that opens the modal
+        var btn = document.getElementById("myBtn");
+
+        // Get the <span> element that closes the modal
+        var span = document.getElementsByClassName("close")[0];
+
+        // When the user clicks the button, open the modal
+        btn.onclick = function() {
+            modal.style.display = "block";
+        }
+
+        // When the user clicks on <span> (x), close the modal
+        span.onclick = function() {
+            modal.style.display = "none";
+        }
+
+        // When the user clicks anywhere outside of the modal, close it
+        window.onclick = function(event) {
+            if (event.target == modal) {
+                modal.style.display = "none";
+            }
+        }
+
+
+        var model = document.getElementsByClassName("mymodul");
+        var btn = document.getElementsByClassName("mybtn");
+        var span = document.getElementsByClassName("close")[0];
+
+        function openBox(){
+
+        }
+    </script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+</body>
+
+</html>
